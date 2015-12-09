@@ -2,9 +2,9 @@
 title: Github Tutorial for Linguistics
 author:
 - Richard Soulliere
-date: 2015-10-10
+date: 2015-12-09
 reviewers:
-
+- Shawn Graham
 layout: default
 ---
 
@@ -32,14 +32,13 @@ Technically you can work with repository files online, but it's a little awkward
 ##First Steps: Download & Install
 
 There are two FREE programs you will need to download and they are:
-+ [github](https://desktop.github.com/)
++ [github - desktop](https://desktop.github.com/)
 + [sublime text](http://www.sublimetext.com/2)
 
 They are both compatible with PCs, Macs, and other platforms. Once both are installed, continue reading.
 
 ###Notes
-+ Coding a file using Sublime Text can be done using markdown or HTML.
-+ If you don't know markdown or HTML, don't sweat it!
++ Coding a file using Sublime Text can be done using markdown or HTML. If you don't know markdown or HTML, don't sweat it!
 + You can expect Sublime Text to replace word processors and even simple HTML editors!!! Sublime text creates markdown files, which allow you to create files just like this one!
 + Do download the desktop version of github and be sure to save your files in the GitHub folder you specify during installation from hereonin because that's where github looks.
 
@@ -104,8 +103,8 @@ with the markdown version:
 >\!\[Funky Sound Wave\]\(https://github.com/80masters/Github-Tutorial-for-Linguists/raw/master//images/sound_wave.jpg?raw=true)
 
 ###Notes:
-+ Files created with markdown coding do not allow embedding of sound files.  It would not be possible to convert to HTML, doc, or pdf files if that was the case!  Still, giving the power of choosing what to download to the user/reader is fine.
 + With this multi-modal functionality, you can have impressive appendices and links throughout your work.  I will leave you with your imagination.
++ Files created in markdown with embedded of sound files will likely created problems when converting to doc or pdf files!  Still, giving the power of choosing what to download to the user/reader via hyperlink is fine.
 + The markdown coding for embedding or linking files you include will depend on your username, the folder structure you use, and the names you give your files.  In the sound wave example; 80masters is my user name, then there's the name I gave the repository, raw and master are required along with the double-slash, then the sub-folder within the repository, then the file name.  Practice replacing your details with one of your files, get it right, then you have a line of code that can be copied with minimal changes required!
 + Clearly, HTML is simpler as it only requires the folder structure and file name. The stuff after alt is the caption.
 + The file name and extension is case-sensitive, so if you name your file something.JPG the JPG part must be capitalized in any reference to it in your markdown file, too!
@@ -141,16 +140,17 @@ One of the most powerful aspects of collaboration permitted by github is the fac
 
 Referencing is made substantially more user-friendly in terms of being able to check out sources with simple clicks as is the case with hyperlinks embedded in text, photos, and other files.  Trains of thought can migrate to maglev with this capability!  That said, how will all of you decide who publishes which part with traditional journal article publishing?
 
-Have you ever wondered how to make your data analysis section richer as opposed to simple and dry? If you work with your data via github, then every time you type in a description before you "Commit to Master" can help! Be descriptive and include decisions you make and/or important notes in those descriptions.  By the time you are ready to write the discussion section to your paper, you will have all those notes to work with and you can spell out the twists, turns, and logic behind your brilliant study!
+Have you ever wondered how to make your data analysis section richer as opposed to simple and dry? If you work with your data via github, then every time you type in a description before you "Commit to Master" can help! Be descriptive and include decisions you make and/or important notes in those descriptions.  By the time you are ready to write the analysis or discussion section to your paper, you will have all those notes to work with and you can spell out the twists, turns, and logic behind your brilliant study!
 
 Additional functionalities for github you may be interested in exploring include:
 * inserting tables - not too difficult to do with the | key!
 * creating pdfs from markdown files
 * funky formatting using HTML tags
+* github visualizer - to see contributions to a repository
 * using wget to backup webpages or an entire website
-* using Jekyll to create a website
+* using Jekyll to create a \(free, static\)website
 
-Finally, if you want funky formatting and alignments, you will need to explore html coding, although do not be dismayed as it can be learned very quickly.  If you want some text in bold, guess what you do in html?  First, you tell it where the bold begins and where the bold ends and that is it!  So
+Finally, if you want funky formatting and alignments, you will need to explore coding, although do not be dismayed as it can be learned very quickly.  If you want some text in bold, guess what you do in html?  First, you tell it where the bold begins and where the bold ends and that is it!  So
 
 > \<b\>Something important\</b\>
 
@@ -158,7 +158,7 @@ becomes
 
 <p><b>Something important</b></p>
 
-And no, you are not limited to only programming in either markdown or html.  You can alternate between HTML tagging and markdown on a paragraph basis - which you can see in the coding for this page.
+And no, you are not limited to only programming in either markdown or html.  You can alternate between HTML tagging and markdown, which you can see in the coding for this page \(which occurs on a paragraph-by-paragraph basis\).
 
 <a name="conclude"></a>
 ##Conclusion
@@ -170,6 +170,7 @@ The following are some links I found very useful:
 * [HTML formatting - tons of examples here](http://www.w3schools.com/html/html_formatting.asp)
 * [Pandoc - merging multiple markdown files and convert-to-PDF](http://pandoc.org/installing.html)
 * [repository for creating ready-to-upload websites quickly with Jekyll](https://github.com/barryclark/jekyll-now)
+* [github visualizer tutorial](https://github.com/digh5000/student-tutorials/blob/master/Githubvisualizer%20JessieR.md)
 * [wget tutorial](http://programminghistorian.org/lessons/automated-downloading-with-wget)
 
 <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
